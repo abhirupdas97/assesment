@@ -1,7 +1,6 @@
 class AssesmentsController < ApplicationController
 
-	def calculate_sum
-	  input = "//\n1;-2"
+	def calculate_sum(input)
 	  sum = 0
 	  flag = 0
 	  len = input.length - 1
