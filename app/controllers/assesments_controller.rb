@@ -1,3 +1,4 @@
+
 class AssesmentsController < ApplicationController
 
 	def calculate_sum(input)
